@@ -1,0 +1,15 @@
+{
+  "name": "names-dataset",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scrape-wiktionary-names.js",
+  "scripts": {
+    "build": "node ./scrape-wiktionary-names.js"
+  },
+  "author": "Lukasz Wiktor",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "cheerio": "^1.0.0-rc.3"
+  }
+}
